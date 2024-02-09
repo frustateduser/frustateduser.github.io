@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'proxima-nova', sans-serif, Arial, Helvetica;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#toplogo{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(../images/bghead.jpg);
+    background-size:cover;
+    border: 2px solid #e96406;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid #e96406;
+}
+header article h1{
+    position:absolute;
+    display: inline;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 25px;
+    background: none;
+}
+#profile{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #e96406;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top:90px; 
+    transition: all 0.5s;
+}
+#profile:hover{
+    transform: rotateY(360deg);
+    transition: all 0.5s;
+    content: url(../images/avtar.jpg);
+}
+ .icon-box{
+    height: 150px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 40px auto 40px auto ;
+ }
+ .icon-box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+ }
+
+ .icon-box a:hover{
+    border-radius: 10%;
+    box-shadow: -15px 15px 20px black;
+    transition:all 0.5s;
+    transform:perspective(10000px) rotateX(360deg);
+ }
+
+ footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #0d2f54;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    margin-top: 20px;
+ }
+
+ #scroll-icon a{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    margin: 20px;
+    color: black;
+ }
