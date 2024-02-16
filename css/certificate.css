@@ -60,11 +60,6 @@ footer{
  .pdfs{
     padding: 50px;
     margin: 20px;
-    height: max-content;
-    width: max-content;
-    max-height: max-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
  }
  .fullscreen{
     position: fixed;
